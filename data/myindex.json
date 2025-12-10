@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Al-Quran",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/agama/islam/",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/agama/islam/",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "quran",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "title": "Cuaca",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/cuaca",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/cuaca",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "title": "Shorten Link",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/shorten",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/shorten",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "title": "Cek Ongkir",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/cekongkir",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/cekongkir",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "ongkir",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "title": "Dashboard Crypto (Desktop)",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/crypto",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/crypto",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "title": "Covid-19",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/covid",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/covid",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "title": "Algolia",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/algolia",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/algolia",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "title": "Mailgun",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/mailgun",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/mailgun",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "title": "Ig clone (mobile view)",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/ig",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/ig",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -85,7 +85,7 @@
     {
       "id": 10,
       "title": "KBBI - Unofficial",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/kbbi",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/kbbi",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -94,7 +94,7 @@
     {
       "id": 11,
       "title": "Invest",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/invest",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/invest",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -103,7 +103,7 @@
     {
       "id": 12,
       "title": "Music",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/music",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/music",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -112,7 +112,7 @@
     {
       "id": 14,
       "title": "Maps",
-      "route" : "https://ngodingbentar-fe-v2.vercel.app/maps",
+      "route" : "https://ngodingbentar-fe-2025.vercel.app/maps",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
