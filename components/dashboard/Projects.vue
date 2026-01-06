@@ -52,7 +52,7 @@ const projects = [
     imageUrl: '/img/project/setoko.png',
   },
   {
-    title: 'CMS Setoko',
+    title: 'ERP Setoko',
     url: 'https://web.setoko.co/login',
     description:
       'Proyek Platform Manajemen Bisnis adalah pembangunan website dari awal untuk memudahkan pengelola toko dalam mengelola konten (seperti produk, promo), WMS (Warehouse Management System), CRM (Customer Relationship Management), & POS (Point of Sale)), di mana saya sebagai Frontend Engineer bertanggung jawab penuh mulai dari penentuan tech stack (Nextjs, Reactjs, Tailwind css, Zustand, Typescript), setup project, implementasi desain UI/UX, integrasi API backend, hingga memastikan performa.',
@@ -82,6 +82,30 @@ const projects = [
       'Bergabung di fase pengembangan lanjutan platform tanda tangan digital yang tersertifikasi secara hukum, saya berperan sebagai Frontend Engineer dalam meningkatkan keamanan dan performa alur penandatanganan, memperbaiki bug kritis, dan mengembangkan fitur-fitur verifikasi identitas baru yang kompleks.',
     technologies: ['Vue.js', 'Nuxt.js', 'JavaScript', 'TypeScript', 'Bootstrap', 'Tailwind CSS', 'Pinia'],
     imageUrl: '/img/project/privy-now.jpg',
+  },
+  {
+    title: 'Privy Mail',
+    url: '#',
+    description:
+      'Sebagai Frontend Engineer, saya bertanggung jawab dalam mengembangkan antarmuka pengguna yang intuitif dan responsif untuk sistem email internal perusahaan (mirip Gmail), termasuk fitur manajemen kotak masuk, penyusunan email dengan rich text editor, dan integrasi fungsionalitas pencarian cepat dan aman.',
+    technologies: ['Vue.js', 'Nuxt.js', 'JavaScript', 'TypeScript', 'Bootstrap', 'Tailwind CSS', 'Pinia'],
+    imageUrl: '/img/project/privy-mail.png',
+  },
+  {
+    title: 'Persona',
+    url: 'https://privy-open-source.github.io/design-system',
+    description:
+      'Sebagai Frontend Engineer, saya bertanggung jawab penuh untuk membangun, mendokumentasikan, dan memelihara Design System agar tim pengembang dapat menciptakan UI yang konsisten, reusable, dan efisien di seluruh produk perusahaan. Design system ini yang akan digunakan untuk semua produk yang ada. Tech stack Nuxtjs, Vuejs, Tailwind css, Typescript.',
+    technologies: ['Vue.js', 'Nuxt.js', 'JavaScript', 'TypeScript', 'Bootstrap', 'Tailwind CSS', 'Pinia'],
+    imageUrl: '/img/project/persona.png',
+  },
+  {
+    title: 'Dimana',
+    url: 'https://www.dimana.io',
+    description:
+      'Sebagai Frontend Engineer, saya bertanggung jawab untuk membangun antarmuka dan interaksi pengguna pada platform discovery lokasi (dimana.io) yang membantu pengguna menemukan tempat yang sesuai untuk berbagai kebutuhan, meliputi visualisasi peta, implementasi fitur filter canggih, dan memastikan desain yang user-friendly di perangkat mobile. Tech stack Nuxtjs, Vuejs, Tailwind css, Typescript.',
+    technologies: ['Vue.js', 'Nuxt.js', 'JavaScript', 'TypeScript', 'Bootstrap', 'Tailwind CSS', 'Pinia'],
+    imageUrl: '/img/project/dimana.jpg',
   },
 ];
 </script>
