@@ -1,66 +1,57 @@
 <template>
-  <!-- <div class="flex m-auto justify-center bg-red-100 flex-row"> -->
-  <div class="mt-8">
-    <div class="main text-center flex flex-wrap m-auto justify-center max-w-5xl">
-      <div v-for="item in thisIndex" :key="item.id" class="m-4">
-        <nuxt-link v-if="item.type === 'int'" :to="item.route">
-          <CardComp :item="item" />
-        </nuxt-link>
-        <a v-else :href="item.route" target="_blank">
-          <CardComp :item="item" />
-        </a>
+  <div class="pointer-events-none fixed inset-0 z-30 transition duration-300"
+    :style="`background: radial-gradient(600px at ${mouseX}px ${mouseY}px, rgba(29, 78, 216, 0.15), transparent 80%);`">
+  </div>
+  <div class="bg-navy min-h-screen text-slate-400 font-sans selection:bg-teal-300 selection:text-teal-900 relative">
+    <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <div class="lg:flex lg:justify-between lg:gap-4">
+        <!-- Sidebar (Left) -->
+        <Sidebar class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24" />
+
+        <!-- Main Content (Right) -->
+        <main id="content" class="pt-24 lg:w-1/2 lg:py-24">
+          <About />
+          <Experience />
+          <Projects />
+        </main>
       </div>
     </div>
   </div>
-  <FooterComp />
 </template>
 
 <script setup>
-  import dataJson from '~/data/myindex.json'
-  import dataExt from '~/data/extIndex.json'
-import CardComp from '../components/CardComp.vue';
+import Sidebar from '~/components/dashboard/Sidebar.vue';
+import About from '~/components/dashboard/About.vue';
+import Experience from '~/components/dashboard/Experience.vue';
+import Projects from '~/components/dashboard/Projects.vue';
 
-  const dataDoa = dataJson.data
-  const extIndex = dataExt.data
-  const thisIndex = computed(() => {
-    const data = [...dataDoa, ...extIndex]
-    const duh = data.sort(function (a, b) {
-      if (a.title < b.title) {
-        return -1
-      }
-      if (a.title > b.title) {
-        return 1
-      }
-      return 0
-    })
-    return duh
-  })
+const mouseX = ref(0);
+const mouseY = ref(0);
+
+function handleMouseMove(event) {
+  mouseX.value = event.clientX;
+  mouseY.value = event.clientY;
+}
+
+onMounted(() => {
+  window.addEventListener('mousemove', handleMouseMove);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('mousemove', handleMouseMove);
+});
+
+useHead({
+  title: 'Dewa Qintoro | Frontend Engineer',
+  meta: [
+    { name: 'description', content: 'Dewa Qintoro is a software engineer who builds accessible, pixel-perfect digital experiences for the web.' }
+  ],
+  bodyAttrs: {
+    class: 'bg-navy leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900'
+  }
+})
 </script>
 
-
-<style lang="postcss" scoped>
-.darkTheme{
-  /* color: rgb(61, 81, 94); */
-  .card:hover{
-    background: rgb(61, 81, 94);
-  }
-}
-.lightTheme{
-  .card:hover {
-    background: #f1f1f1;
-  }
-}
-.main2 {
-  @apply pt-8 min-h-screen max-w-md;
-}
-
-.content {
-  @apply my-8;
-}
-.item {
-  @apply px-8 mx-36 my-4;
-}
-.card {
-  @apply text-2xl;
-}
+<style scoped>
+/* Any specific page-level overrides if necessary */
 </style>
