@@ -55,7 +55,7 @@ const projects = [
     title: 'ERP Setoko',
     url: 'https://web.setoko.co/login',
     description:
-      'Proyek Platform Manajemen Bisnis adalah pembangunan website dari awal untuk memudahkan pengelola toko dalam mengelola konten (seperti produk, promo), WMS (Warehouse Management System), CRM (Customer Relationship Management), & POS (Point of Sale)), di mana saya sebagai Frontend Engineer bertanggung jawab penuh mulai dari penentuan tech stack (Nextjs, Reactjs, Tailwind css, Zustand, Typescript), setup project, implementasi desain UI/UX, integrasi API backend, hingga memastikan performa.',
+      'ERP Setoko adalah platform manajemen bisnis adalah pembangunan website dari awal untuk memudahkan pengelola toko dalam mengelola konten (seperti produk, promo), WMS (Warehouse Management System), CRM (Customer Relationship Management), & POS (Point of Sale)), di mana saya sebagai Frontend Engineer bertanggung jawab penuh mulai dari penentuan tech stack (Nextjs, Reactjs, Tailwind css, Zustand, Typescript), setup project, implementasi desain UI/UX, integrasi API backend, hingga memastikan performa.',
     technologies: ['React', 'Next.js', 'JavaScript', 'TypeScript', 'Antd', 'Tailwind CSS', 'Zustand'],
     imageUrl: '/img/project/web-setoko.png',
   },

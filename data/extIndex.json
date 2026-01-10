@@ -3,16 +3,25 @@
     {
       "id": 100,
       "title": "Chat (Mobile)",
-      "route" : "https://vue-chat-five.vercel.app/",
+      "route": "https://vue-chat-five.vercel.app/",
       "description": "",
       "stack": "Vue.js",
       "icon": "chat",
       "type": "ext"
     },
     {
+      "id": 10012026,
+      "title": "Drama China",
+      "route": "hhttps://dracin-kw.vercel.app/",
+      "description": "",
+      "stack": "Next.js",
+      "icon": "cuaca",
+      "type": "ext"
+    },
+    {
       "id": 101,
       "title": "Youtube Downloader",
-      "route" : "https://downgram.netlify.app/",
+      "route": "https://downgram.netlify.app/",
       "description": "",
       "stack": "React.js",
       "icon": "cuaca",
@@ -21,7 +30,7 @@
     {
       "id": 102,
       "title": "Task Management",
-      "route" : "https://board-ngodingbentar.vercel.app",
+      "route": "https://board-ngodingbentar.vercel.app",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -30,7 +39,7 @@
     {
       "id": 103,
       "title": "Online Store (Aruspinggir)",
-      "route" : "http://ap-v3.herokuapp.com/",
+      "route": "http://ap-v3.herokuapp.com/",
       "description": "",
       "stack": "MERN",
       "icon": "cuaca",
@@ -39,7 +48,7 @@
     {
       "id": 104,
       "title": "Trello Clone",
-      "route" : "https://ngodingbentar-trello.vercel.app/",
+      "route": "https://ngodingbentar-trello.vercel.app/",
       "description": "",
       "stack": "Next.js",
       "icon": "cuaca",
@@ -48,7 +57,7 @@
     {
       "id": 105,
       "title": "Open AI",
-      "route" : "https://openai-nuxtjs-ten.vercel.app/",
+      "route": "https://openai-nuxtjs-ten.vercel.app/",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -57,7 +66,7 @@
     {
       "id": 106,
       "title": "Portfolio Glass",
-      "route" : "https://portfolio-glass.vercel.app/",
+      "route": "https://portfolio-glass.vercel.app/",
       "description": "",
       "stack": "Html, Css",
       "icon": "cuaca",
@@ -66,7 +75,7 @@
     {
       "id": 107,
       "title": "Landing Page",
-      "route" : "https://fe-katak-landing.vercel.app/",
+      "route": "https://fe-katak-landing.vercel.app/",
       "description": "",
       "stack": "Next.js",
       "icon": "cuaca",
@@ -75,7 +84,7 @@
     {
       "id": 108,
       "title": "Maps v2",
-      "route" : "https://maps-ngodingbentar.vercel.app/",
+      "route": "https://maps-ngodingbentar.vercel.app/",
       "description": "",
       "stack": "React.js",
       "icon": "cuaca",
@@ -84,7 +93,7 @@
     {
       "id": 109,
       "title": "Music v2",
-      "route" : "https://music-v2-nextjs.vercel.app/",
+      "route": "https://music-v2-nextjs.vercel.app/",
       "description": "",
       "stack": "Next.js",
       "icon": "cuaca",
@@ -93,7 +102,7 @@
     {
       "id": 110,
       "title": "Expense Tracker",
-      "route" : "https://ngodingbentar-catat.netlify.app/",
+      "route": "https://ngodingbentar-catat.netlify.app/",
       "description": "",
       "stack": "React.js",
       "icon": "cuaca",
@@ -102,7 +111,7 @@
     {
       "id": 111,
       "title": "Movies",
-      "route" : "https://ngodingbentar-film.netlify.app/",
+      "route": "https://ngodingbentar-fe-2025.vercel.app/movies",
       "description": "",
       "stack": "Html, Css",
       "icon": "cuaca",
@@ -111,7 +120,7 @@
     {
       "id": 112,
       "title": "QR Code",
-      "route" : "https://qrcode-generator-vue.vercel.app/",
+      "route": "https://qrcode-generator-vue.vercel.app/",
       "description": "",
       "stack": "Vue.js",
       "icon": "cuaca",
@@ -120,7 +129,7 @@
     {
       "id": 113,
       "title": "Charts",
-      "route" : "https://echarts-vue.vercel.app/",
+      "route": "https://echarts-vue.vercel.app/",
       "description": "",
       "stack": "Vue.js",
       "icon": "cuaca",
@@ -129,7 +138,7 @@
     {
       "id": 114,
       "title": "CKEditor",
-      "route" : "https://ckeditor-vue.vercel.app/",
+      "route": "https://ckeditor-vue.vercel.app/",
       "description": "",
       "stack": "Vue.js",
       "icon": "cuaca",
@@ -138,7 +147,7 @@
     {
       "id": 115,
       "title": "Vue Quill",
-      "route" : "https://vue-quill.vercel.app/",
+      "route": "https://vue-quill.vercel.app/",
       "description": "",
       "stack": "Vue.js",
       "icon": "cuaca",
@@ -147,7 +156,7 @@
     {
       "id": 116,
       "title": "Note",
-      "route" : "https://ngodingbentar-notes.vercel.app/",
+      "route": "https://ngodingbentar-notes.vercel.app/",
       "description": "",
       "stack": "React.js",
       "icon": "cuaca",
@@ -156,7 +165,7 @@
     {
       "id": 117,
       "title": "SpeechSynthesis",
-      "route" : "https://ngodingbentar-speech.netlify.app/",
+      "route": "https://ngodingbentar-speech.netlify.app/",
       "description": "",
       "stack": "Nuxt.js",
       "icon": "cuaca",
@@ -165,7 +174,7 @@
     {
       "id": 118,
       "title": "Github Repositories Explorer",
-      "route" : "https://nb-github.vercel.app/",
+      "route": "https://nb-github.vercel.app/",
       "description": "",
       "stack": "Next.js",
       "icon": "cuaca",
@@ -174,7 +183,7 @@
     {
       "id": 119,
       "title": "Blog",
-      "route" : "https://nb-blog-one.vercel.app/blog",
+      "route": "https://nb-blog-one.vercel.app/blog",
       "description": "",
       "stack": "Vue.js",
       "icon": "cuaca",
@@ -183,7 +192,7 @@
     {
       "id": 120,
       "title": "Dashboard",
-      "route" : "https://nb-ds.netlify.app/",
+      "route": "https://nb-ds.netlify.app/",
       "description": "",
       "stack": "Next.js",
       "icon": "cuaca",
@@ -192,7 +201,7 @@
     {
       "id": 121,
       "title": "Midtrans",
-      "route" : "https://nb-midtrans.netlify.app/",
+      "route": "https://nb-midtrans.netlify.app/",
       "description": "",
       "stack": "Next.js",
       "icon": "cuaca",
@@ -201,7 +210,7 @@
     {
       "id": 122,
       "title": "Vacation",
-      "route" : "https://nb-vacation.vercel.app/",
+      "route": "https://nb-vacation.vercel.app/",
       "description": "",
       "stack": "Next.js",
       "icon": "cuaca",
@@ -210,7 +219,7 @@
     {
       "id": 123,
       "title": "Gemini AI",
-      "route" : "https://dew-gemini-ai.vercel.app/",
+      "route": "https://dew-gemini-ai.vercel.app/",
       "description": "",
       "stack": "React.js",
       "icon": "cuaca",
